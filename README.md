@@ -28,7 +28,7 @@ step:2
 ```
 
 After this service will be ready to run on your local environment.
-OPen your postman and  make requests.
+Open your postman and  make requests.
 
 
 ## POSTMAN settings
