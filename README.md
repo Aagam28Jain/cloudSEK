@@ -53,8 +53,11 @@ After executing the login or signup request and storing the JWT token in the env
 follow these steps to set up the Authorization header:
 
 Click on the "Authorization" tab in Postman.
+
 Select "Bearer Token" from the dropdown list.
+
 In the input field next to "Bearer Token", enter {{jwt}}. 
+
 This syntax references the environment variable where the JWT token is stored.
 
 
