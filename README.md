@@ -48,10 +48,13 @@ Make sure this script is placed in the "Tests" tab of your request in Postman.
 
 For every subsequent request that requires authentication (i.e.,All routes except login and signup),
 
-After executing the login or signup request and storing the JWT token in the environment variable, follow these steps to set up the Authorization header:
+After executing the login or signup request and storing the JWT token in the environment variable,
+
+follow these steps to set up the Authorization header:
 
 Click on the "Authorization" tab in Postman.
 Select "Bearer Token" from the dropdown list.
-In the input field next to "Bearer Token", enter {{jwt}}. This syntax references the environment variable where the JWT token is stored.
+In the input field next to "Bearer Token", enter {{jwt}}. 
+This syntax references the environment variable where the JWT token is stored.
 
 
